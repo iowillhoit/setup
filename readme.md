@@ -1,0 +1,67 @@
+# Misc Installs
+- [Gifox](https://itunes.apple.com/us/app/gifox/id1082624744?mt=12)
+- [1Keyboard](https://itunes.apple.com/us/app/1keyboard/id766939888?mt=12)
+- [Moom](https://itunes.apple.com/us/app/moom/id419330170?mt=12)
+- [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements)
+- ? [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12)
+- [Node](https://nodejs.org/en/)
+- [Homebrew](http://brew.sh/)
+    - Redis `brew install redis`
+
+# [Bin](https://github.com/iowillhoit/bin)
+- `cd ~ && git@github.com:iowillhoit/bin.git`
+
+# [Alfred](https://www.alfredapp.com/)
+- [Enable Powerpack](https://mail.google.com/mail/u/1/#search/alfred/155282ff4b7a1391)
+- Set theme
+- Change trigger (command+space)
+- Enable Clipboard history (Features>Clipboard)
+- Sync settings (~/Dropbox/applications/alfred)
+- Auto expand snippets (Features>Snippets)
+
+# [Sublime Text 3](https://www.sublimetext.com/3)
+- [Install license](https://mail.google.com/mail/u/0/#search/sublime+text/1553150d428618aa)
+- Enter License `Help>Enter License`
+- Clone sublime settings repo
+`cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages && git clone git@github.com:iowillhoit/sublime.git .`
+- [Enable `subl`](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/)
+    + `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+
+# [iTerm3](https://www.iterm2.com/version3.html)
+- Change "Load preferences from a custom folder or URL" to `~/Dropbox/applications/iterm`
+- [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [Bullet Train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme)
+    + [Input Font](http://input.fontbureau.com/preview/?size=14&language=javascript&theme=solarized-dark&family=InputMono&width=400&weight=400&line-height=1.2&a=0&g=0&i=serifs_round&l=serifs_round&zero=0&asterisk=0&braces=straight&preset=default&customize=please)
+- Fix Node permissions `sudo chown -R $(whoami):admin /usr/local/bin/ && sudo chown -R $(whoami):admin /usr/local/lib/`
+- ? [Rupa z](https://github.com/rupa/z)
+- [n](https://github.com/tj/n)
+- [tldr](https://github.com/tldr-pages/tldr) `npm install -g tldr`
+
+## Reference
+- [Key bindings](https://gist.github.com/iowillhoit/9298628129039d5e0038)
+
+# SSH KEYS
+- Link config `mkdir ~/.ssh && ln -s ~/Dropbox/applications/ssh/config ~/.ssh/config`
+- Setup ssh keys `ssh-keygen -b 4096 -t rsa`
+
+# Misc Config
+- Sign into Chrome
+- [Hide Cisco](https://www.cnet.com/news/prevent-an-applications-dock-icons-from-showing-in-os-x/)
+- Turn on dictation
+    - System Preferences>Accessibility>Speech
+    - Serena @ 60% rate
+    - Check "Speak selected text when the key is pressed"
+
+# TODO
+- Create github pusher
+    + `~/bin`
+    + `~/Library/Application\ Support/Sublime\ Text\ 3/Packages`
+- [Redis Launchd](http://naleid.com/blog/2011/03/05/running-redis-as-a-user-daemon-on-osx-with-launchd)
+- login script `tldr --update`
+- save alfred settings to repo
+    + ignore:
+        * license.plist
+        * usage.data
+        * Databases/clipboard.alfdb.data
+- backup Input font
+
