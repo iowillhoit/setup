@@ -3,13 +3,13 @@
 - [1Keyboard](https://itunes.apple.com/us/app/1keyboard/id766939888?mt=12)
 - [Moom](https://itunes.apple.com/us/app/moom/id419330170?mt=12)
 - [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements)
-- ? [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12)
+- [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12)
 - [Node](https://nodejs.org/en/)
 - [Homebrew](http://brew.sh/)
     - Redis `brew install redis`
 
 # [Bin](https://github.com/iowillhoit/bin)
-- `cd ~ && git@github.com:iowillhoit/bin.git`
+- `cd ~ && git@github.com:iowillhoit/bin.git && cd -`
 
 # [Alfred](https://www.alfredapp.com/)
 - [Enable Powerpack](https://mail.google.com/mail/u/1/#search/alfred/155282ff4b7a1391)
@@ -44,6 +44,33 @@
 - Link config `mkdir ~/.ssh && ln -s ~/Dropbox/applications/ssh/config ~/.ssh/config`
 - Setup ssh keys `ssh-keygen -b 4096 -t rsa`
 
+# Marketing Cloud
+- `npm install -g grunt-cli && npm install -g bower && npm install -g karma-cli`
+- `brew install gpg`
+- If you do not have `~/.gnupg`, execute the binary `gpg` and kill the process.
+- Delete any created keys `rm -f ~/.gnupg/*.gpg`
+- `ln -s ~/.gnupg ~/.gpg` 
+- `mkdir ~/dev/platform && cd ~/dev/platform`
+- `git clone git@github.exacttarget.com:ewillhoit/marketing-cloud-app.git mc-dos`
+- `git clone git@github.exacttarget.com:Mobile/platform-tools.git tools`
+- `cd tools/devconnect && npm install`
+- `cd ../.. && cp tools/platformapps/GitPlatformApps.sh .`
+- `sh GitPlatformApps.sh`
+- `cd mc-dos`
+- `git remote add upstream git@github.exacttarget.com:MarketingCloudDev/marketing-cloud-app.git`
+- `git fetch --all --prune`
+- `git checkout -b jfv-206 upstream/jfv-206`
+- `npm install grunt@0.4.5`
+- `npm install`
+- `grunt -f`
+- Change `port: 3001` to `port: 3000` and `secure: true` to `secure: false` in `~/dev/platform/tools/devconnect/config/ssjsproxy.js`
+- `cd Package/Dynamic/lightning-experience && npm install`
+
+---
+- ? `sh tools/devconnect/cert/install-cert-mac.sh`
+
+
+
 # Misc Config
 - Sign into Chrome
 - [Hide Cisco](https://www.cnet.com/news/prevent-an-applications-dock-icons-from-showing-in-os-x/)
@@ -56,6 +83,7 @@
 - Create github pusher
     + `~/bin`
     + `~/Library/Application\ Support/Sublime\ Text\ 3/Packages`
+    + `~/Library/Application\ Support/Alfred\ 3`
 - [Redis Launchd](http://naleid.com/blog/2011/03/05/running-redis-as-a-user-daemon-on-osx-with-launchd)
 - login script `tldr --update`
 - save alfred settings to repo
