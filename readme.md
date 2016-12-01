@@ -5,6 +5,8 @@
 - [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements)
 - [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12)
 - [Node](https://nodejs.org/en/)
+- [Bartender](https://www.macbartender.com/)
+    + [License](https://mail.google.com/mail/u/1/#inbox/158badf517ca1365)
 - [Homebrew](http://brew.sh/)
     - Redis `brew install redis`
 
@@ -53,6 +55,7 @@
 - `mkdir ~/dev/platform && cd ~/dev/platform`
 - `git clone git@github.exacttarget.com:ewillhoit/marketing-cloud-app.git mc-dos`
 - `git clone git@github.exacttarget.com:Mobile/platform-tools.git tools`
+- `unzip -j ~/dev/platform/tools/gpg/gpg.zip -d ~/.gnupg`
 - `cd tools/devconnect && npm install`
 - `cd ../.. && cp tools/platformapps/GitPlatformApps.sh .`
 - `sh GitPlatformApps.sh`
@@ -60,16 +63,14 @@
 - `git remote add upstream git@github.exacttarget.com:MarketingCloudDev/marketing-cloud-app.git`
 - `git fetch --all --prune`
 - `git checkout -b jfv-206 upstream/jfv-206`
-- `npm install grunt@0.4.5`
-- `npm install`
-- `grunt -f`
-- Change `port: 3001` to `port: 3000` and `secure: true` to `secure: false` in `~/dev/platform/tools/devconnect/config/ssjsproxy.js`
-- `cd Package/Dynamic/lightning-experience && npm install`
+- `npm run setup-classic`
+- `npm run setup`
+- `npm start`
 
 ---
+- Change `port: 3001` to `port: 3000` and `secure: true` to `secure: false` in `~/dev/platform/tools/devconnect/config/ssjsproxy.js`
+- `cd Package/Dynamic/lightning-experience && npm install`
 - ? `sh tools/devconnect/cert/install-cert-mac.sh`
-
-
 
 # Misc Config
 - Sign into Chrome
