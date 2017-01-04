@@ -4,7 +4,11 @@
 - [Moom](https://itunes.apple.com/us/app/moom/id419330170?mt=12)
 - [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements)
 - [Pocket](https://itunes.apple.com/us/app/pocket/id568494494?mt=12)
+- [1password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
+    + Syncs with iCloud
 - [Node](https://nodejs.org/en/)
+- [Rescue Time](https://www.rescuetime.com)
+- [Virtual Box](https://www.virtualbox.org/)
 - [Bartender](https://www.macbartender.com/)
     + [License](https://mail.google.com/mail/u/1/#inbox/158badf517ca1365)
 - [Homebrew](http://brew.sh/)
@@ -74,6 +78,7 @@
 
 # Misc Config
 - Sign into Chrome
+- [Stackato VM](http://downloads.stackato.com/vm/v3.4.2/)
 - [Hide Cisco](https://www.cnet.com/news/prevent-an-applications-dock-icons-from-showing-in-os-x/)
 - Turn on dictation
     - System Preferences>Accessibility>Speech
