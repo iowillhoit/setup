@@ -7,6 +7,7 @@
 - [1password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
     + Syncs with iCloud
 - [Node](https://nodejs.org/en/)
+- [Flux](https://justgetflux.com/)
 - [Rescue Time](https://www.rescuetime.com)
 - [Virtual Box](https://www.virtualbox.org/)
 - [Bartender](https://www.macbartender.com/)
