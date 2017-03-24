@@ -14,6 +14,8 @@
     + [License](https://mail.google.com/mail/u/1/#inbox/158badf517ca1365)
 - [Homebrew](http://brew.sh/)
     - Redis `brew install redis`
+- [Dash](https://kapeli.com/dash)
+    + [License](https://mail.google.com/mail/u/0/#inbox/15b02250ecd27699)
 
 # [Bin](https://github.com/iowillhoit/bin)
 - `cd ~ && git@github.com:iowillhoit/bin.git && cd -`
