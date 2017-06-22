@@ -58,7 +58,7 @@
 - `brew install gpg`
 - If you do not have `~/.gnupg`, execute the binary `gpg` and kill the process.
 - Delete any created keys `rm -f ~/.gnupg/*.gpg`
-- `ln -s ~/.gnupg ~/.gpg` 
+- `ln -s ~/.gnupg ~/.gpg`
 - `mkdir ~/dev/platform && cd ~/dev/platform`
 - `git clone git@github.exacttarget.com:ewillhoit/marketing-cloud-app.git mc-dos`
 - `git clone git@github.exacttarget.com:Mobile/platform-tools.git tools`
@@ -87,6 +87,7 @@
     - System Preferences>Accessibility>Speech
     - Serena @ 60% rate
     - Check "Speak selected text when the key is pressed"
+- [Non-native fullscreen support (sorta)](https://apple.stackexchange.com/a/146951)
 
 # TODO
 - Create github pusher
