@@ -83,6 +83,11 @@
 - Sign into Chrome
 - [Stackato VM](http://downloads.stackato.com/vm/v3.4.2/)
 - [Hide Cisco](https://www.cnet.com/news/prevent-an-applications-dock-icons-from-showing-in-os-x/)
+    - Add to plist
+    ```
+    <key>LSUIElement</key>
+    <true/>
+    ```
 - Turn on dictation
     - System Preferences>Accessibility>Speech
     - Serena @ 60% rate
