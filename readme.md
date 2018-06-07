@@ -14,6 +14,7 @@
     + [License](https://mail.google.com/mail/u/1/#inbox/158badf517ca1365)
 - [Homebrew](http://brew.sh/)
     - Redis `brew install redis`
+    - [jq](https://stedolan.github.io/jq/) `brew install jq`
 - [Dash](https://kapeli.com/dash)
     + [License](https://mail.google.com/mail/u/0/#inbox/15b02250ecd27699)
 
