@@ -46,6 +46,7 @@
 - ? [Rupa z](https://github.com/rupa/z)
 - [n](https://github.com/tj/n)
 - [tldr](https://github.com/tldr-pages/tldr) `npm install -g tldr`
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) `brew install diff-so-fancy` -- `git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"`
 
 ## Reference
 - [Key bindings](https://gist.github.com/iowillhoit/9298628129039d5e0038)
